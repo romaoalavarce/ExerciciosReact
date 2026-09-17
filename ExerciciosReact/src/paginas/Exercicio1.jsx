@@ -1,6 +1,7 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
-function App() {
+function Exercicio1() {
   const [valor1, setValor1] = useState("")
   const [valor2, setValor2] = useState("")
   const [resultado, setResultado] = useState(null)
@@ -45,9 +46,15 @@ function App() {
           <p>Divisão: {resultado.divisao}</p>
         </div>
       )}
+    <p>
+      <Link to="/">
+        <button>Voltar para Home</button>
+      </Link>
+    </p>
     </div>
   )
 }
 
-export default App
+export default Exercicio1
+
 

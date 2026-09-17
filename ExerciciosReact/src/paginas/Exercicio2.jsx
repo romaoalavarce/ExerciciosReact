@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 function Exercicio2() {
   const [numeroSecreto, setNumeroSecreto] = useState(
@@ -42,7 +43,13 @@ function Exercicio2() {
       <p>{mensagem}</p>
 
       <p>Tentativas: {tentativas}</p>
+
+
+    <Link to="/">
+        <button>Voltar para Home</button>
+    </Link>
     </div>
+   
   )
 }
 
