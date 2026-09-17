@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
+import './App.css'
 import Home from './paginas/Home'
 import Exercicio1 from './paginas/Exercicio1'
 import Exercicio2 from './paginas/Exercicio2'
