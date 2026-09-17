@@ -36,4 +36,4 @@ manter placar acumulado
 Instruções:
 Use array com opções
 Gere escolha aleatória com Math.random
-Atualize placar dinamicament
+Atualize placar dinamicamente
